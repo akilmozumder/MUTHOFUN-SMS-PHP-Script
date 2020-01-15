@@ -5,7 +5,7 @@
 	   $password = "password";
 	   $mobiles = '8801826323538';
 	   $sms = 'বাংলাদেশ একটি সুন্দর দেশ';
-	   $originator = 'SurpremeSeed';
+	   $originator = 'abcd'; //your masking name
 	
 	$data=sendSMS($username, $password, $mobiles, $sms, $originator);
 	
